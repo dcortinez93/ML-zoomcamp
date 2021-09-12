@@ -27,7 +27,7 @@ df['Engine HP'] = df['Engine HP'].fillna(mean_hp_before)
 mean_hp_after = df['Engine HP'].mean()
 
 print(f"rounded mean before : {round(mean_hp_before)}. ")
-print(f"rounded mean before : {round(mean_hp_after)}. ")
+print(f"rounded mean after : {round(mean_hp_after)}. ")
 
 #6
 filtered = df[df['Make'] == 'Rolls-Royce'][["Engine HP", "Engine Cylinders", "highway MPG"]].drop_duplicates()
