@@ -14,7 +14,6 @@ with open('./model1.bin', 'rb') as f_in:
 
 customer = {"contract": "two_year", "tenure": 12, "monthlycharges": 19.7}
 
-
 X = dv.transform([customer])
 
 score = model.predict_proba(X)[0, 1]
