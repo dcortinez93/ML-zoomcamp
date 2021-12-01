@@ -2,7 +2,6 @@
 """
 Created on Tue Nov 30 21:59:15 2021
 
-@author: Diego Cortínez
 """
 import requests
 
