@@ -2,7 +2,6 @@
 """
 Created on Tue Nov 30 21:59:15 2021
 
-@author: Diego Cortínez
 """
 import tflite_runtime.interpreter as tflite
 from keras_image_helper import create_preprocessor
