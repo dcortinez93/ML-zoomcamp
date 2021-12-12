@@ -46,7 +46,7 @@ All of the dataset values were collected at the moment of medical examination.
 
 
 ## Data preparation, data cleaning, and EDA
-Are on the file notebook.ipynb.
+Are on the file notebook.ipynb. To re-execute this notebook make sure you have the dependencies installed and cardio_train.csv on the same folder as the notebook.
 
 ## Model Training
 It's on the file notebook.ipynb. and train.py.
